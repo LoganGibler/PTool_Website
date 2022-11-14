@@ -1,0 +1,51 @@
+
+h1{
+    text-align: center;
+    color: aqua;
+}
+
+#inputboxdiv{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inputbox{
+    height: 20px;
+    width: 900px;
+}
+
+
+
+#outputboxdiv{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#outputbox{
+    height: 80px;
+    width: 900px;
+    /* white-space: pre-wrap; */
+}
+
+.button{
+    background-color: grey;
+    color:white;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+#buttondiv{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
